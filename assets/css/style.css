@@ -1,0 +1,242 @@
+
+
+.navbar {
+    /* border: solid red; */
+    width: 320px;
+    background-color: #597E52;
+}
+ /* .bg {
+    color: #0dcaf0;
+    background-color: #0dcaf0;
+ } */
+
+
+
+.header {
+    /* border: solid red; */
+    width: 320px;
+    height: 650px;
+    background-image: url(../img/bg-hero.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.header div {
+    /* border: solid greenyellow; */
+    text-align: center;
+    padding-right: 1rem;
+    
+}
+
+.header h1{
+    font-size: 2.5em;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.container-button button{
+    border: solid 1px white; /*este borde no se comentara en un futuro*/
+    color: white;
+    background-color: transparent;
+    border-radius: 7px;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1em;
+}
+
+.button-trabajos:hover{
+    background-color: #597E52;
+    border:solid 2.5px #597E52;/*este borde no se comentara en un futuro*/
+    
+}
+
+.button-contacto:hover {
+    border-color: 1.5px #597E52;/*este borde no se comentara en un futuro*/
+    border:solid 2.5px #597E52;
+    
+}
+
+main {
+    /* border: solid red; */
+    width: 320px;
+    height: 1180px;
+}
+
+.aboutme{
+    /* border: dotted purple; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFEC;
+}
+
+.aboutme div {
+    /* border: solid greenyellow; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.aboutme h2{
+    /* border: solid red; */
+}
+
+div i {
+    /* border: solid red; */
+}
+
+div h3 {
+    /* border: solid red; */
+}
+
+div p {
+    /* border: solid red; */
+    text-align: center;
+}
+
+.myworks {
+    /* border: solid greenyellow; */
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1E4C3;
+    gap: 2rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.myworks h2 {
+    /* border:solid red; */
+    color: #597E52;
+    font-size: 2em;
+}
+
+.card {
+    /* border: solid red; */
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0dcaf0;
+    border-radius: 15px;
+    
+}
+
+.card div {
+    /* border: dotted purple; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    
+}
+
+.card img {
+    width: 100%;
+    /* border-radius top: 15px; */
+}
+
+.button-vermas {
+    border: solid 1px #0dcaf0; /*este borde no se comentara en un futuro*/
+    background-color: transparent;
+    color: #0dcaf0;
+    border-radius: 7px;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1em;   
+}
+
+.button-vermas:hover{
+    background-color: #0dcaf0;
+    border:solid 2.5px aqua;/*este borde no se comentara en un futuro*/
+    color: black;
+}
+
+form {
+    /* border: solid greenyellow; */
+    width: 320px;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color:#FFFFEC ;
+
+}
+
+form div {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+div h2 {
+    /* border: solid greenyellow; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9em;
+}
+
+form input {
+    width: 90%;
+    border-radius: 5px;
+    border: solid 0.5px;
+}
+ .enviar {
+    /* border: dotted purple; */
+    
+ }
+
+ .button-enviar {
+    border: solid #0dcaf0;
+    width: 65px;
+    height: 35px;
+    background-color: #0dcaf0;
+    color: white;
+    border-radius: 5px;
+
+}
+
+footer {
+    /* border: solid red; */
+    width: 320px;
+    height: 75px;
+    color: white;
+    background-color: #597E52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
