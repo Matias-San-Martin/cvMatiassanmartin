@@ -27,6 +27,7 @@
 
 .header div {
     /* border: solid greenyellow; */
+    margin: 15px;
     text-align: center;
     padding-right: 1rem;
     
@@ -68,7 +69,7 @@
 main {
     /* border: solid red; */
     width: 430px;
-    height: 1180px;
+    height: auto;
 }
 
 .aboutme{
@@ -80,32 +81,47 @@ main {
     justify-content: space-evenly;
     align-items: center;
     background-color: #FFFFEC;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    gap: 2rem;
 }
 
 .aboutme div {
-    /* border: solid greenyellow; */
+    border: solid #F1E4C3;
     width: 80%;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
 }
 
+.aboutme i {
+    margin-top: 10px;
+}
+
+.aboutme div p {
+    text-align: center;
+}
+
 .aboutme h2{
     /* border: solid red; */
 }
 
-div i {
+div img {
     /* border: solid red; */
+    margin-top: 20px;
+    width: 85%;
 }
 
 div h3 {
     /* border: solid red; */
 }
 
-div p {
+.aboutme div ul {
     /* border: solid red; */
-    text-align: center;
+    align-self: flex-start;
+    margin-left: 20px;
 }
 
 .myworks {
@@ -129,14 +145,14 @@ div p {
 }
 
 .card {
-    /* border: solid red; */
+    border: solid #597E52 2px;
     width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0dcaf0;
+    /* background-color: #0dcaf0; */
     /* border-radius: 15px; */
     
 }
@@ -163,9 +179,9 @@ div p {
 }
 
 .button-vermas {
-    border: solid 1px #0dcaf0; /*este borde no se comentara en un futuro*/
+    border: solid 1px #597E52; /*este borde no se comentara en un futuro*/
     background-color: transparent;
-    color: #0dcaf0;
+    color: #597E52;
     border-radius: 7px;
     width: 6rem;
     height: 2.5rem;
@@ -173,9 +189,9 @@ div p {
 }
 
 .button-vermas:hover{
-    background-color: #0dcaf0;
-    border:solid 2.5px aqua;/*este borde no se comentara en un futuro*/
-    color: black;
+    background-color: #597E52;
+    border:solid 2.5px #597E52;/*este borde no se comentara en un futuro*/
+    color: white;
 }
 
 form {
@@ -216,10 +232,10 @@ form input {
  }
 
  .button-enviar {
-    border: solid #0dcaf0;
+    border: solid #597E52;
     width: 65px;
     height: 35px;
-    background-color: #0dcaf0;
+    background-color: #597E52;
     color: white;
     border-radius: 5px;
 
