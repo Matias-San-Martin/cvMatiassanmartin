@@ -2,7 +2,7 @@
 
 .navbar {
     /* border: solid red; */
-    width: 320px;
+    width: 430px;
     background-color: #597E52;
 }
  /* .bg {
@@ -14,7 +14,7 @@
 
 .header {
     /* border: solid red; */
-    width: 320px;
+    width: 430px;
     height: 650px;
     background-image: url(../img/bg-hero.jpg);
     background-size: cover;
@@ -67,7 +67,7 @@
 
 main {
     /* border: solid red; */
-    width: 320px;
+    width: 430px;
     height: 1180px;
 }
 
@@ -110,7 +110,7 @@ div p {
 
 .myworks {
     /* border: solid greenyellow; */
-    width: 320px;
+    width: 430px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -176,7 +176,7 @@ div p {
 
 form {
     /* border: solid greenyellow; */
-    width: 320px;
+    width: 430px;
     height: auto;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -223,7 +223,7 @@ form input {
 
 footer {
     /* border: solid red; */
-    width: 320px;
+    width: 430px;
     height: 75px;
     color: white;
     background-color: #597E52;
