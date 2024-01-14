@@ -101,6 +101,8 @@ main {
 }
 
 .aboutme div p {
+    /* border: solid red; */
+    width: 80%;
     text-align: center;
 }
 
@@ -142,6 +144,12 @@ div h3 {
     /* border:solid red; */
     color: #597E52;
     font-size: 2em;
+}
+
+.card p {
+    /* border: solid red; */
+    width: 80%;
+    text-align: center;
 }
 
 .card {
