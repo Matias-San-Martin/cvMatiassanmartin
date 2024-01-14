@@ -10,7 +10,10 @@
     background-color: #0dcaf0;
  } */
 
-
+.navbar img {
+    /* border: solid white 0.5px; */
+    
+}
 
 .header {
     /* border: solid red; */
@@ -153,7 +156,7 @@ div h3 {
 }
 
 .card {
-    border: solid #597E52 2px;
+    border: solid #F1E4C3 2px;
     width: 80%;
     height: auto;
     display: flex;
@@ -241,7 +244,7 @@ form input {
 
  .button-enviar {
     border: solid #597E52;
-    width: 65px;
+    width: 70px;
     height: 35px;
     background-color: #597E52;
     color: white;
