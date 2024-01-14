@@ -137,8 +137,12 @@ div p {
     justify-content: center;
     align-items: center;
     background-color: #0dcaf0;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     
+}
+
+.card img {
+    /* border: dotted greenyellow; */
 }
 
 .card div {
