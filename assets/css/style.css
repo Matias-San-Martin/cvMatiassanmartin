@@ -18,9 +18,9 @@
 .header {
     /* border: solid red; */
     width: 430px;
-    height: 650px;
-    background-image: url(../img/bg-hero.jpg);
-    background-size: cover;
+    height: auto;
+    background-image: url(../img/EGAÑA.jpg);
+    background-size:contain;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
