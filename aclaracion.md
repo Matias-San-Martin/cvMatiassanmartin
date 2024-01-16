@@ -1,0 +1,1 @@
+pagina web con formato solo para dispositivo movil con un width de 430px. 
