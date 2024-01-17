@@ -1,276 +1,254 @@
-
-
 .navbar {
-    /* border: solid red; */
-    width: 430px;
-    background-color: #597E52;
+  /* border: solid red; */
+  width: 430px;
+  background-color: #597e52;
 }
- /* .bg {
+/* .bg {
     color: #0dcaf0;
     background-color: #0dcaf0;
  } */
 
 .navbar img {
-    /* border: solid white 0.5px; */
-    
+  /* border: solid white 0.5px; */
 }
 
 .header {
-    /* border: solid red; */
-    width: 430px;
-    height: auto;
-    background-image: url(../img/EGAÑA.jpg);
-    background-size:contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: white;
-    
+  /* border: solid red; */
+  width: 430px;
+  height: auto;
+  background-image: url(../img/constructor.jpg);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
 }
 
 .header div {
-    /* border: solid greenyellow; */
-    margin: 15px;
-    text-align: center;
-    padding-right: 1rem;
-    
+  /* border: solid greenyellow; */
+  margin: 15px;
+  text-align: center;
+  padding-right: 1rem;
 }
 
-.header h1{
-    font-size: 2.5em;
+.header h1 {
+  font-size: 2.5em;
 }
 
 .container-button {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.container-button button{
-    border: solid 1px white; /*este borde no se comentara en un futuro*/
-    color: white;
-    background-color: transparent;
-    border-radius: 7px;
-    width: 6rem;
-    height: 2.5rem;
-    font-size: 1em;
+.container-button button {
+  border: solid 1px white; /*este borde no se comentara en un futuro*/
+  color: white;
+  background-color: transparent;
+  border-radius: 7px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1em;
 }
 
-.button-trabajos:hover{
-    background-color: #597E52;
-    border:solid 2.5px #597E52;/*este borde no se comentara en un futuro*/
-    
+.button-trabajos:hover {
+  background-color: #597e52;
+  border: solid 2.5px #597e52; /*este borde no se comentara en un futuro*/
 }
 
 .button-contacto:hover {
-    border-color: 1.5px #597E52;/*este borde no se comentara en un futuro*/
-    border:solid 2.5px #597E52;
-    
+  border-color: 1.5px #597e52; /*este borde no se comentara en un futuro*/
+  border: solid 2.5px #597e52;
 }
 
 main {
-    /* border: solid red; */
-    width: 430px;
-    height: auto;
+  /* border: solid red; */
+  width: 430px;
+  height: auto;
 }
 
-.aboutme{
-    /* border: dotted purple; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #FFFFEC;
-    padding-top: 50px;
-    padding-bottom: 35px;
-    gap: 2rem;
+.aboutme {
+  /* border: dotted purple; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffec;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  gap: 2rem;
 }
 
 .aboutme div {
-    border: solid #F1E4C3;
-    width: 80%;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
+  border: solid #f1e4c3;
+  width: 80%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .aboutme i {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .aboutme div p {
-    /* border: solid red; */
-    width: 80%;
-    text-align: center;
+  /* border: solid red; */
+  width: 80%;
+  text-align: center;
 }
 
-.aboutme h2{
-    /* border: solid red; */
+.aboutme h2 {
+  /* border: solid red; */
 }
 
 div img {
-    /* border: solid red; */
-    margin-top: 20px;
-    width: 85%;
+  /* border: solid red; */
+  margin-top: 20px;
+  width: 85%;
 }
 
 div h3 {
-    /* border: solid red; */
+  /* border: solid red; */
 }
 
 .aboutme div ul {
-    /* border: solid red; */
-    align-self: flex-start;
-    margin-left: 20px;
+  /* border: solid red; */
+  align-self: flex-start;
+  margin-left: 20px;
 }
 
 .myworks {
-    /* border: solid greenyellow; */
-    width: 430px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FFFFEC;
-    gap: 2rem;
-    padding-top: 20px;
-    padding-bottom: 40px;
+  /* border: solid greenyellow; */
+  width: 430px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffec;
+  gap: 2rem;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .myworks h2 {
-    /* border:solid red; */
-    color: #597E52;
-    font-size: 2em;
+  /* border:solid red; */
+  color: #597e52;
+  font-size: 2em;
 }
 
 .card p {
-    /* border: solid red; */
-    width: 80%;
-    text-align: center;
+  /* border: solid red; */
+  width: 80%;
+  text-align: center;
 }
 
 .card {
-    border: solid #F1E4C3 2px;
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #0dcaf0; */
-    /* border-radius: 15px; */
-    
+  border: solid #f1e4c3 2px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0dcaf0; */
+  /* border-radius: 15px; */
 }
 
 .card img {
-    /* border: dotted greenyellow; */
+  /* border: dotted greenyellow; */
 }
 
 .card div {
-    /* border: dotted purple; */
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    /* padding-top: 5px; */
-    padding-bottom: 5px;
-    
+  /* border: dotted purple; */
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  /* padding-top: 5px; */
+  padding-bottom: 5px;
 }
 
 .card img {
-    /* border: dotted greenyellow; */
-    width: 100%;
-    margin: 0;
-    height: auto;
-    /* border-radius top: 15px; */
+  /* border: dotted greenyellow; */
+  width: 100%;
+  margin: 0;
+  height: auto;
+  /* border-radius top: 15px; */
 }
 
 .button-vermas {
-    border: solid 1px #597E52; /*este borde no se comentara en un futuro*/
-    background-color: transparent;
-    color: #597E52;
-    border-radius: 7px;
-    width: 6rem;
-    height: 2.5rem;
-    font-size: 1em;   
+  border: solid 1px #597e52; /*este borde no se comentara en un futuro*/
+  background-color: transparent;
+  color: #597e52;
+  border-radius: 7px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1em;
 }
 
-.button-vermas:hover{
-    background-color: #597E52;
-    border:solid 2.5px #597E52;/*este borde no se comentara en un futuro*/
-    color: white;
+.button-vermas:hover {
+  background-color: #597e52;
+  border: solid 2.5px #597e52; /*este borde no se comentara en un futuro*/
+  color: white;
 }
 
 form {
-    /* border: solid greenyellow; */
-    width: 430px;
-    height: auto;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    background-color:#FFFFEC ;
-
+  /* border: solid greenyellow; */
+  width: 430px;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #ffffec;
 }
 
 form div {
-    /* border: solid red; */
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-    padding-top: 1rem;
-    padding-left: 1.5rem;
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
 }
 
 div h2 {
-    /* border: solid greenyellow; */
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    font-size: 1.9em;
+  /* border: solid greenyellow; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.9em;
 }
 
 form input {
-    width: 90%;
-    border-radius: 5px;
-    border: solid #F1E4C3 2.5px;
+  width: 90%;
+  border-radius: 5px;
+  border: solid #f1e4c3 2.5px;
 }
- .enviar {
-    /* border: dotted purple; */
-    
- }
+.enviar {
+  /* border: dotted purple; */
+}
 
- .button-enviar {
-    border: solid #597E52;
-    width: 70px;
-    height: 35px;
-    background-color: #597E52;
-    color: white;
-    border-radius: 5px;
-
+.button-enviar {
+  border: solid #597e52;
+  width: 70px;
+  height: 35px;
+  background-color: #597e52;
+  color: white;
+  border-radius: 5px;
 }
 
 footer {
-    /* border: solid red; */
-    width: 430px;
-    height: 75px;
-    color: white;
-    background-color: #597E52;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* border: solid red; */
+  width: 430px;
+  height: 75px;
+  color: white;
+  background-color: #597e52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
-
-
-
-
-
